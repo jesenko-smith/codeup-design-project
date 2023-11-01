@@ -6,12 +6,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
 
+.page-wrapper {
+}
+
 body {
     font-family: 'Abel', sans-serif;
 }
 
 img.logo-img {
-    max-width: 105px;
+    max-width: 70px;
+    padding: 10px;
 }
 
 li {
@@ -21,4 +25,18 @@ li {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.header {
+    margin: 0px;
+    padding:0px
+}
+
+.top-page {
+    font-size:22px;
+    font-weight: 600;
+}
+
+.links {
+    opacity: 50%;
 }
