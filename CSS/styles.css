@@ -6,16 +6,22 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
 
-.page-wrapper {
-}
-
 body {
     font-family: 'Abel', sans-serif;
+    background-color: #F0F0F0;
+}
+
+.page-wrapper {
+    padding: 10px 10px;
+}
+
+div.col {
+    padding-top: unset;
 }
 
 img.logo-img {
-    max-width: 70px;
-    padding: 10px;
+    max-width: 50px;
+    padding-right: 10px;
 }
 
 li {
@@ -39,4 +45,8 @@ a {
 
 .links {
     opacity: 50%;
+}
+
+p, ul {
+    margin: unset;
 }
