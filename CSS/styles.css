@@ -50,3 +50,7 @@ a {
 p, ul {
     margin: unset;
 }
+
+main.container {
+    border-bottom: solid #C7C7C8 1px;
+}
