@@ -9,3 +9,16 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-family: 'Abel', sans-serif;
 }
+
+img.logo-img {
+    max-width: 105px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
