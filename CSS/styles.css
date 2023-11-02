@@ -8,8 +8,13 @@
     --clr-border-grey: #E6E6E6;
     --clr-teal: #00AAA9;
     --clr-coral: #E5563A;
-    --clr-yelloe: #EB9C39;
+    --clr-yellow: #EB9C39;
     --clr-green: #7BB06C;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 body {
@@ -65,6 +70,7 @@ img.the-last-img {
 
 img.four-img {
     border: solid var(--clr-border-grey) 8px;
+    max-height: 280px;
 }
 
 .links {
@@ -74,4 +80,52 @@ img.four-img {
 .codeup-design {
     margin:0px;
     font-size: 22px;
+}
+
+.project-card {
+    width: calc(50% - 10px);
+}
+
+.circle-1 {
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    width: 18px;
+    height: 18px;
+    background-color: var(--clr-coral);
+    border-radius: 999px;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-2 {
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    width: 18px;
+    height: 18px;
+    background-color: var(--clr-yellow);
+    border-radius: 999px;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-3 {
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    width: 18px;
+    height: 18px;
+    background-color: var(--clr-green);
+    border-radius: 999px;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-4 {
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    width: 18px;
+    height: 18px;
+    background-color: var(--clr-teal);
+    border-radius: 999px;
+    align-items: center;
+    justify-content: center;
 }
