@@ -39,18 +39,9 @@ a {
     color: inherit;
 }
 
-.header {
-    margin: 0;
-}
-
 img.logo-img {
     max-width: 50px;
     padding-right: 10px;
-}
-
-.top-page {
-    font-size:22px;
-    font-weight: 600;
 }
 
 h1.hero-font {
@@ -72,20 +63,20 @@ img.four-img {
     border: solid var(--clr-border-grey) 8px;
 }
 
-.links {
+ul.links {
     margin: 0px;
     font-size: 13px;
 }
-.codeup-design {
+p.codeup-design {
     margin:0px;
     font-size: 22px;
 }
 
-.project-card {
+div.project-card {
     width: calc(50% - 10px);
 }
 
-.circle-1 {
+div.circle-1 {
     display: flex;
     font-family: 'Anton', sans-serif;
     width: 18px;
@@ -96,7 +87,7 @@ img.four-img {
     justify-content: center;
 }
 
-.circle-2 {
+div.circle-2 {
     display: flex;
     font-family: 'Anton', sans-serif;
     width: 18px;
@@ -107,7 +98,7 @@ img.four-img {
     justify-content: center;
 }
 
-.circle-3 {
+div.circle-3 {
     display: flex;
     font-family: 'Anton', sans-serif;
     width: 18px;
@@ -118,7 +109,7 @@ img.four-img {
     justify-content: center;
 }
 
-.circle-4 {
+div.circle-4 {
     display: flex;
     font-family: 'Anton', sans-serif;
     width: 18px;
@@ -127,4 +118,43 @@ img.four-img {
     border-radius: 999px;
     align-items: center;
     justify-content: center;
+}
+
+div.custom-marg {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+div.col2-pad {
+    padding-right: unset;
+    padding-left: 24px;
+}
+
+div.col1-pad {
+    padding-left: unset;
+    padding-right: 24px;
+}
+
+div.tweet {
+    line-height: 1.25;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.navigation {
+    margin: 0px;
+    padding: 0px;
+}
+.links {
+    margin: 0px;
+    font-size: 13px;
+    opacity: 60%;
+    padding: 0px;
+}
+.codeup-design {
+    margin:0px;
+    margin-right: 30px;
+    font-size: 22px;
 }

@@ -7,22 +7,33 @@
 </head>
 <body>
 <div class="page-wrapper">
-    <header class="container header">
-        <div class="row">
-            <div class="col-12 d-flex align-items-center">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigation d-flex">
+        <div class="container-fluid navigation d-flex">
+            <a class="navbar-brand navigation" href="#">
                 <img src="./images/logo.png" alt="logo image" class="logo-img">
-                    <p class="codeup-design">codeup design</p>
-                <div>
-                    <ul class="d-flex gap-3 opacity-50 links">
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a href="#">WORK</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </div>
+            </a>
+            <p class="codeup-design">codeup design</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto links">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
     <main class="container">
         <div class="row ">
             <div class="col flex-column d-flex gap-3 mt-5">
@@ -37,9 +48,9 @@
     </main>
     <section class="container">
         <div class="row">
-            <div class="col-8">
-                <div class="d-flex justify-content-center mb-5 mt-5">
-                    <p>SELECTED WORK</p>
+            <div class="col-8 col1-pad">
+                <div class="d-flex justify-content-center custom-marg">
+                    <p class="m-0">SELECTED WORK</p>
                 </div>
                 <div class="d-flex flex-wrap justify-content-between">
                     <div class="d-flex flex-column project-card">
@@ -100,24 +111,24 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="d-flex justify-content-center mb-5 mt-5">
-                    <p>THE LAST</p>
+            <div class="col-4 col2-pad">
+                <div class="d-flex justify-content-center custom-marg">
+                    <p class="m-0">THE LAST</p>
                 </div>
-                <div class="d-flex justify-content-center align-items-start gap-3 mb-3">
+                <div class="d-flex justify-content-center align-items-start gap-3 mb-5">
                     <img src="./images/mobile-phone.jpg" alt="phone on keyboard" class="w-50 the-last-img">
                     <h4>THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
                 </div>
-                <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+                <div class="d-flex justify-content-center align-items-center gap-3 mb-5">
                     <img src="./images/head.jpg" alt="phone on keyboard" class="w-50 the-last-img">
                     <h4>NIBBLER AWESOME WEBSITE TESTING</h4>
                 </div>
-                <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+                <div class="d-flex justify-content-center align-items-center gap-3 mb-5">
                     <img src="./images/ipad.jpg" alt="phone on keyboard" class="w-50 the-last-img">
                     <h4>HOW TO GET GOOGLE TO LIKE YOU</h4>
                 </div>
-                <div>
-                    <p>LAST TWEET</p>
+                <div class="tweet">
+                    <p class="mb-1">LAST TWEET</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus amet aperiam assumenda, atque aut consequuntur culpa dolor earum eos excepturi illum ipsum iusto, natus numquam tempora tempore velit vitae.</p>
                 </div>
             </div>
