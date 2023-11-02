@@ -2,26 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
+:root {
+    --clr-grey: #F0F0F0;
+    --clr-dark-grey: #C7C7C8;
+    --clr-teal: #00AAA9;
+    --clr-coral: #E5563A;
+    --clr-yelloe: #EB9C39;
+    --clr-green: #7BB06C;
 }
 
 body {
     font-family: 'Abel', sans-serif;
-    background-color: #F0F0F0;
+    background-color: var(--clr-grey);
 }
 
 .page-wrapper {
     padding: 10px 10px;
 }
 
-div.col {
-    padding-top: unset;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
 }
 
-img.logo-img {
-    max-width: 50px;
-    padding-right: 10px;
+div.col {
+    padding-top: unset;
 }
 
 li {
@@ -33,9 +37,17 @@ a {
     color: inherit;
 }
 
+div {
+    padding: unset;
+}
+
 .header {
-    margin: 0px;
-    padding:0px
+    margin: 0;
+}
+
+img.logo-img {
+    max-width: 50px;
+    padding-right: 10px;
 }
 
 .top-page {
@@ -52,5 +64,6 @@ p, ul {
 }
 
 main.container {
-    border-bottom: solid #C7C7C8 1px;
+    border-bottom: solid var(--clr-dark-grey) 1px;
 }
+
