@@ -21,7 +21,7 @@ body {
     padding: 10px 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
     font-family: 'Anton', sans-serif;
 }
 
@@ -65,4 +65,13 @@ img.the-last-img {
 
 img.four-img {
     border: solid var(--clr-border-grey) 8px;
+}
+
+.links {
+    margin: 0px;
+    font-size: 13px;
+}
+.codeup-design {
+    margin:0px;
+    font-size: 22px;
 }
