@@ -70,7 +70,6 @@ img.the-last-img {
 
 img.four-img {
     border: solid var(--clr-border-grey) 8px;
-    max-height: 280px;
 }
 
 .links {
