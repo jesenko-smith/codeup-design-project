@@ -16,50 +16,40 @@ img {
     max-width: 100%;
     display: block;
 }
-
 body {
     font-family: 'Abel', sans-serif;
     font-weight: bold;
     background-color: var(--clr-grey);
 }
-
 h1, h2, h3, h4, h6 {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
 }
-
 li {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
     color: inherit;
 }
-
 img.logo-img {
     max-width: 50px;
 }
-
 h1.hero-font {
     font-size: 60px;
 }
-
 .border-on-bottom {
     border-bottom: solid var(--clr-dark-grey) 1px;
 }
-
 img.the-last-img {
     max-height: 70px;
     max-width: 70px;
     aspect-ratio: 1/1;
     border: solid var(--clr-border-grey) 3px;
 }
-
 img.four-img {
     border: solid var(--clr-border-grey) 8px;
 }
-
 ul.links {
     margin: 0;
     font-size: 15px;
@@ -68,75 +58,33 @@ p.codeup-design {
     margin:0;
     font-size: 25px;
 }
-
 div.project-card {
     width: calc(50% - 10px);
 }
-
-.circle-1 {
+.circle-little {
     display: flex;
     font-family: 'Anton', sans-serif;
     width: 18px;
     height: 18px;
-    background-color: var(--clr-coral);
     border-radius: 999px;
     align-items: center;
     justify-content: center;
 }
-
-.circle-2 {
-    display: flex;
-    font-family: 'Anton', sans-serif;
-    width: 18px;
-    height: 18px;
-    background-color: var(--clr-yellow);
-    border-radius: 999px;
-    align-items: center;
-    justify-content: center;
-}
-
-.circle-3 {
-    display: flex;
-    font-family: 'Anton', sans-serif;
-    width: 18px;
-    height: 18px;
-    background-color: var(--clr-green);
-    border-radius: 999px;
-    align-items: center;
-    justify-content: center;
-}
-
-.circle-4 {
-    display: flex;
-    font-family: 'Anton', sans-serif;
-    width: 18px;
-    height: 18px;
-    background-color: var(--clr-teal);
-    border-radius: 999px;
-    align-items: center;
-    justify-content: center;
-}
-
 div.custom-marg {
     margin-top: 35px;
     margin-bottom: 35px;
 }
-
 .col2-pad {
     padding-right: unset;
     padding-left: 35px;
-
 }
-
 .col1-pad {
     padding-left: unset;
     padding-right: 24px;
 }
-
 .bg-light {
     --bs-bg-opacity: 0;
 }
-
 .links {
     margin: 0px;
     font-size: 13px;
@@ -148,16 +96,13 @@ div.custom-marg {
     margin-right: 30px;
     font-size: 22px;
 }
-
 .circle-gap {
     gap: 5px;
 }
-
-.circle-a {
+.circle-hero {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #e6563b;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -168,71 +113,19 @@ div.custom-marg {
     margin-left: 15px;
     margin-right: 15px;
 }
-
-.circle-b {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-color: #EB9D3A;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border: 7px solid white;
-    font-family: 'Anton', sans-serif;
-    color: white;
-    margin: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.circle-c {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-color: #7cb06c;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border: 7px solid white;
-    font-family: 'Anton', sans-serif;
-    color: white;
-    margin: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.circle-d {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-color: #00aba9;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border: 7px solid white;
-    font-family: 'Anton', sans-serif;
-    color: white;
-    margin: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
 .top-c {
     padding: 0px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-
 .bottom-c {
     padding: 0px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-
 .park-city {
     margin-bottom: 15px;
 }
-
 .custom-circ-marg {
     margin-bottom: 48px;
 }
