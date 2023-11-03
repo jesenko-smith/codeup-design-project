@@ -291,13 +291,14 @@ div.custom-marg {
     .col1-pad {
         padding-right: 0;
     }
+    .col2-pad {
+        padding-left: 0;
+
+    }
 
 }
 
 @media screen and (max-width: 575px){
-    .sub-page-wrapper {
-        padding: 0 30px;
-    }
     .border-on-bottom {
         border-bottom: none;
     }
@@ -307,8 +308,16 @@ div.custom-marg {
     div.project-card {
         width: 100%;
     }
+    .page-wrapper {
+        padding: 0 12px;
+    }
+    .sm-pad {
+        padding: 0;
+    }
+    .col1-pad {
+        padding: 0 12px;
+    }
     .col2-pad {
-        padding-left: 0;
-
+        padding: 0 12px;
     }
 }
