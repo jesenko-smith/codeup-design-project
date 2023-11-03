@@ -277,10 +277,6 @@ div.custom-marg {
     .codeup-design {
         display: none;
     }
-
-}
-
-@media screen and (max-width: 902px){
     .codeup-design {
         display: none;
     }
@@ -288,4 +284,5 @@ div.custom-marg {
         margin-top: 35px;
         margin-bottom: 35px;
     }
+
 }
