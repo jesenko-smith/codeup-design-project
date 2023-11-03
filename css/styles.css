@@ -17,6 +17,11 @@ img {
 body {
     font-family: 'Abel', sans-serif;
     font-weight: bold;
+}
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
     background-color: var(--clr-grey);
 }
 h1, h2, h3, h4, h6 {
@@ -25,6 +30,7 @@ h1, h2, h3, h4, h6 {
 }
 li {
     list-style-type: none;
+    color: darkgray;
 }
 a {
     text-decoration: none;
@@ -33,8 +39,49 @@ a {
 img.logo-img {
     max-width: 50px;
 }
+/*casper*/
+img.header-logo{
+    max-width: 40px;
+    aspect-ratio: 1/1;
+}
+
+.burger{
+    padding: unset;
+    background-color: inherit;
+    position: relative;
+    right: 60px;
+}
+
+.codeup{
+    flex-shrink: 1;
+    padding: unset;
+}
+
+.badH3, .badH3-nav{
+    text-transform: lowercase;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: unset;
+    position: relative;
+}
+.offcanvas.offcanvas-end {
+    width: 150px;
+    background-color: var(--clr-coral);
+    opacity: 90%;
+}
+.offcanvas-header .btn-close {
+    margin-top: -80px;
+    margin-right: -15px;
+}
+
+
+/*casper*/
 h1.hero-font {
     font-size: 60px;
+}
+nav {
+    background-color: var(--clr-grey);
 }
 .border-on-bottom {
     border-bottom: solid var(--clr-dark-grey) 1px;
@@ -127,7 +174,6 @@ img.the-last-img {
 img.four-img {
     border: solid var(--clr-border-grey) 8px;
 }
-/*Large Screen BP*/
 @media screen and (max-width: 1094px){
     div.lg-xtra-marg {
         margin-top: 40px;
@@ -146,16 +192,10 @@ img.four-img {
         padding-right: unset;
         padding-left: 55px;
     }
-    .navbar {
-        display: none;
-    }
 }
-/*Medium Screen BP*/
 @media screen and (max-width: 991px){
-    .codeup-design {
-        display: none;
-    }
-    .codeup-design {
+    .badH3 {
+        position: absolute;
         display: none;
     }
     div.lg-xtra-marg {
@@ -172,7 +212,6 @@ img.four-img {
         padding-left: 0;
     }
 }
-/*Small/XS Screen BP*/
 @media screen and (max-width: 575px){
     .border-on-bottom {
         border-bottom: none;
