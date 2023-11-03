@@ -23,10 +23,6 @@ body {
     background-color: var(--clr-grey);
 }
 
-.sub-page-wrapper {
-    padding: 0 76px;
-}
-
 h1, h2, h3, h4, h6 {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
@@ -240,7 +236,7 @@ div.custom-marg {
 .custom-circ-marg {
     margin-bottom: 48px;
 }
-
+/*Large Screen BP*/
 @media screen and (max-width: 1094px){
     div.lg-xtra-marg {
         margin-top: 40px;
@@ -263,14 +259,11 @@ div.custom-marg {
         padding-right: unset;
         padding-left: 55px;
     }
-    .sub-page-wrapper {
-        padding: 0 15px;
-    }
     .navbar {
         display: none;
     }
 }
-
+/*Medium Screen BP*/
 @media screen and (max-width: 991px){
     .codeup-design {
         display: none;
@@ -285,9 +278,6 @@ div.custom-marg {
     .img-gap {
         margin-bottom: 0;
     }
-    .sub-page-wrapper {
-        padding: 0 30px;
-    }
     .col1-pad {
         padding-right: 0;
     }
@@ -296,7 +286,7 @@ div.custom-marg {
     }
 
 }
-
+/*Small/XS Screen BP*/
 @media screen and (max-width: 575px){
     .border-on-bottom {
         border-bottom: none;
