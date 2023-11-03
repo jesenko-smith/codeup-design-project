@@ -23,10 +23,6 @@ body {
     background-color: var(--clr-grey);
 }
 
-.page-wrapper {
-    padding: 10px 10px;
-}
-
 .sub-page-wrapper {
     padding: 0 76px;
 }
@@ -241,6 +237,10 @@ div.custom-marg {
     margin-bottom: 15px;
 }
 
+.custom-circ-marg {
+    margin-bottom: 48px;
+}
+
 @media screen and (max-width: 1094px){
     div.lg-xtra-marg {
         margin-top: 40px;
@@ -261,7 +261,7 @@ div.custom-marg {
     }
     .col2-pad {
         padding-right: unset;
-        padding-left: 40px;
+        padding-left: 55px;
     }
     .sub-page-wrapper {
         padding: 0 15px;
@@ -288,6 +288,9 @@ div.custom-marg {
     .sub-page-wrapper {
         padding: 0 30px;
     }
+    .col1-pad {
+        padding-right: 0;
+    }
 
 }
 
@@ -295,5 +298,17 @@ div.custom-marg {
     .sub-page-wrapper {
         padding: 0 30px;
     }
+    .border-on-bottom {
+        border-bottom: none;
+    }
+    .custom-circ-marg {
+        margin-bottom: 0;
+    }
+    div.project-card {
+        width: 100%;
+    }
+    .col2-pad {
+        padding-left: 0;
 
+    }
 }
