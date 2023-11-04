@@ -46,7 +46,7 @@ h4.codeup-txt-main, a.codeup-txt-nav{
     font-family: 'Abel', sans-serif;
     font-weight: 500;
     font-size: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
 }
 div.ham-drop-bg {
     width: 150px;
@@ -97,8 +97,7 @@ div.custom-marg {
     padding: 0px;
 }
 .codeup-design {
-    margin:0px;
-    margin-right: 30px;
+    margin-left: 30px;
     font-size: 22px;
 }
 .circle-little {
@@ -189,6 +188,7 @@ img.four-img {
         padding-left: 0;
     }
 }
+
 @media screen and (max-width: 575px){
     .border-on-bottom {
         border-bottom: none;
