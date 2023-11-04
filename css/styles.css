@@ -10,10 +10,7 @@
     --clr-yellow: #EB9C39;
     --clr-green: #7BB06C;
 }
-img {
-    max-width: 100%;
-    display: block;
-}
+/*presets*/
 body {
     font-family: 'Abel', sans-serif;
     font-weight: bold;
@@ -24,7 +21,7 @@ body {
     min-height: 100dvh;
     background-color: var(--clr-grey);
 }
-h1, h2, h3, h4, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
 }
@@ -36,50 +33,31 @@ a {
     text-decoration: none;
     color: inherit;
 }
-img.logo-img {
-    max-width: 50px;
+img {
+    max-width: 100%;
+    display: block;
 }
-/*casper*/
+/*presets*/
+/*header*/
 img.header-logo{
     max-width: 40px;
-    aspect-ratio: 1/1;
 }
-
-.burger{
-    padding: unset;
-    background-color: inherit;
-    position: relative;
-    right: 60px;
-}
-
-.codeup{
-    flex-shrink: 1;
-    padding: unset;
-}
-
-.badH3, .badH3-nav{
-    text-transform: lowercase;
+h4.codeup-txt-main, a.codeup-txt-nav{
     font-family: 'Abel', sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    margin-bottom: unset;
-    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    padding-right: 30px;
 }
-.offcanvas.offcanvas-end {
+div.ham-drop-bg {
     width: 150px;
     background-color: var(--clr-coral);
     opacity: 90%;
 }
-.offcanvas-header .btn-close {
+button.btn-close {
     margin-top: -80px;
     margin-right: -15px;
 }
-
-
-/*casper*/
-h1.hero-font {
-    font-size: 60px;
-}
+/*header*/
 nav {
     background-color: var(--clr-grey);
 }
@@ -194,8 +172,7 @@ img.four-img {
     }
 }
 @media screen and (max-width: 991px){
-    .badH3 {
-        position: absolute;
+    .codeup-txt-main {
         display: none;
     }
     div.lg-xtra-marg {
