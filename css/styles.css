@@ -10,7 +10,6 @@
     --clr-yellow: #EB9C39;
     --clr-green: #7BB06C;
 }
-/*presets*/
 body {
     font-family: 'Abel', sans-serif;
     font-weight: bold;
@@ -43,8 +42,6 @@ img {
     max-width: 100%;
     display: block;
 }
-/*presets*/
-/*header*/
 img.header-logo{
     max-width: 50px;
 }
@@ -66,7 +63,6 @@ button.btn-close {
 .navbar {
     padding-left: 40px;
 }
-/*header*/
 main.border-on-bottom {
     border-bottom: solid var(--clr-dark-grey) 1px;
 }
